@@ -15,11 +15,23 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+/* ¡¡¡Commencez à écrire ci-dessous Start writing your Sassy CSS below!!!  */
+
+.parent {
+  font-size: 1.5rem;
+  padding: 2rem;
   background-color: #15DEA5;
-  padding: 10px;
-  .test{
-    color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 2rem;
+  .child {
+  padding: 1rem;
+  background-color: #19647E;
+  margin-top: 1rem;
+  border-radius: 10rem;
   }
 }
 
-/* ¡¡¡Commencez à écrire ci-dessous ! Start writing your Sassy CSS below!!!  */
+
