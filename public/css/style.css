@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,900i");
 html, body {
   font-family: "Montserrat", sans-serif;
@@ -16,24 +15,48 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
-/* ¡¡¡Nest with combinators below!!!  */
-.root {
-  font-size: 1.5rem;
-  padding: 2rem;
-  background-color: #15DEA5;
-  color: #fff;
+.poll {
+  width: 33%;
+  border: 1px solid #15DEA5;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.poll__pic {
+  width: 100%;
+  align-self: center;
+}
+.poll__opt {
+  width: 40%;
+  cursor: pointer;
   text-align: center;
-  border-radius: 2rem;
+  background: #15DEA5;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+  color: #fff;
 }
-.root + .adjacent {
-  background-color: red;
+.poll__opt--pink {
+  background: #EA526F;
 }
-.root > .child {
-  background-color: green;
+
+/*.poll__pic {
+  width: 100%;
+  align-self: center;
 }
-.root .descendant {
-  background-color: seagreen;
+
+.poll__opt {
+  width: 40%;
+  cursor: pointer;
+  text-align: center;
+  background: #15DEA5;
+  padding: 1.5rem;
+  margin-top: .5rem;
+  color: #fff;
 }
+
+.poll__opt--pink {
+  background: #EA526F;
+}*/
