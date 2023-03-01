@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,900i");
 html, body {
   font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -17,46 +19,22 @@ html, body {
   justify-content: space-evenly;
 }
 
-.poll {
-  width: 33%;
+.btn {
+  padding: 1.5rem;
+  background: #15DEA5;
+  cursor: pointer;
+  border-radius: 100rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.btn--pink {
+  background-color: #EA526F;
+}
+.btn--outline {
+  color: #15DEA5;
+  background: transparent;
   border: 1px solid #15DEA5;
-  padding: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
-.poll__pic {
-  width: 100%;
-  align-self: center;
+.btn--outline.btn--pink {
+  background-color: #EA526F;
 }
-.poll__opt {
-  width: 40%;
-  cursor: pointer;
-  text-align: center;
-  background: #15DEA5;
-  padding: 1.5rem;
-  margin-top: 0.5rem;
-  color: #fff;
-}
-.poll__opt--pink {
-  background: #EA526F;
-}
-
-/*.poll__pic {
-  width: 100%;
-  align-self: center;
-}
-
-.poll__opt {
-  width: 40%;
-  cursor: pointer;
-  text-align: center;
-  background: #15DEA5;
-  padding: 1.5rem;
-  margin-top: .5rem;
-  color: #fff;
-}
-
-.poll__opt--pink {
-  background: #EA526F;
-}*/
