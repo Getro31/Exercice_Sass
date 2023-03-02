@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,900i");
 html, body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-style: italic;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -17,24 +14,20 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 1.5rem;
-  background: #15DEA5;
   cursor: pointer;
-  border-radius: 100rem;
-  font-size: 1.5rem;
-  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 10rem;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: #FFF;
+  background: #19647E;
 }
-.btn--pink {
-  background-color: #EA526F;
-}
-.btn--outline {
-  color: #15DEA5;
-  background: transparent;
-  border: 1px solid #15DEA5;
-}
-.btn--outline.btn--pink {
-  background-color: #EA526F;
+.btn:hover {
+  background: #197e33;
 }
